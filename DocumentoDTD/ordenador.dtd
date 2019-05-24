@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- DTD generado con XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) -->
+<!ELEMENT ram (#PCDATA)>
+<!ELEMENT vga (#PCDATA)>
+<!ELEMENT hdmi (#PCDATA)>
+<!ELEMENT peso (#PCDATA)>
+<!ELEMENT tipo (#PCDATA)>
+<!ELEMENT vram (#PCDATA)>
+<!ELEMENT color (#PCDATA)>
+<!ELEMENT marca (#PCDATA)>
+<!ELEMENT otras (#PCDATA)>
+<!ELEMENT usb-C (#PCDATA)>
+<!ELEMENT modelo (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ELEMENT usb2.0 (#PCDATA)>
+<!ELEMENT usb3.0 (#PCDATA)>
+<!ELEMENT bateria (#PCDATA)>
+<!ELEMENT grafica (#PCDATA)>
+<!ELEMENT nucleos (#PCDATA)>
+<!ELEMENT puertos (#PCDATA)>
+<!ELEMENT teclado (#PCDATA)>
+<!ELEMENT Ethernet (#PCDATA)>
+<!ELEMENT pantalla (#PCDATA)>
+<!ELEMENT Resolucio (#PCDATA)>
+<!ELEMENT ordenador (marca, modelo, tipo, color, pantalla, Resolucio, tecnologia, peso, ram, grafica, vram, tipodegrafica, Procesador, nucleos, puertos, usb2.0, usb3.0, usb-C, Ethernet, hdmi, vga, teclado, almacnamiento, sitemaoperativo, arquitectura, bateria, otras, precio)>
+<!ELEMENT Procesador (#PCDATA)>
+<!ELEMENT tecnologia (#PCDATA)>
+<!ELEMENT arquitectura (#PCDATA)>
+<!ELEMENT almacnamiento (#PCDATA)>
+<!ELEMENT tipodegrafica (#PCDATA)>
+<!ELEMENT sitemaoperativo (#PCDATA)>

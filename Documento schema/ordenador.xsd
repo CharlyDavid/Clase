@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- W3C Schema generado con XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Ethernet">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Gigabit Ethernet"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Procesador">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="intelcore i5-7200"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Resolucio">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="1600x900 HD+"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="almacnamiento">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="1000 GB HDD"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="arquitectura">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="64-bit"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="bateria">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Batería 6 celdas Ion de litio"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="color">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="negro"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="grafica">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Nvidia Geforce 940MX"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="hdmi">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="1puerto"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="marca">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="acer"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="modelo">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="aspire E 17 E5-774G-53LR"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="nucleos">
+		<xs:simpleType>
+			<xs:restriction base="xs:byte">
+				<xs:enumeration value="2"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ordenador">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="marca"/>
+				<xs:element ref="modelo"/>
+				<xs:element ref="tipo"/>
+				<xs:element ref="color"/>
+				<xs:element ref="pantalla"/>
+				<xs:element ref="Resolucio"/>
+				<xs:element ref="tecnologia"/>
+				<xs:element ref="peso"/>
+				<xs:element ref="ram"/>
+				<xs:element ref="grafica"/>
+				<xs:element ref="vram"/>
+				<xs:element ref="tipodegrafica"/>
+				<xs:element ref="Procesador"/>
+				<xs:element ref="nucleos"/>
+				<xs:element ref="puertos"/>
+				<xs:element ref="usb2.0"/>
+				<xs:element ref="usb3.0"/>
+				<xs:element ref="usb-C"/>
+				<xs:element ref="Ethernet"/>
+				<xs:element ref="hdmi"/>
+				<xs:element ref="vga"/>
+				<xs:element ref="teclado"/>
+				<xs:element ref="almacnamiento"/>
+				<xs:element ref="sitemaoperativo"/>
+				<xs:element ref="arquitectura"/>
+				<xs:element ref="bateria"/>
+				<xs:element ref="otras"/>
+				<xs:element ref="precio"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="otras" type="xs:string"/>
+	<xs:element name="pantalla">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="17.3 pulgadas"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="peso">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="3.3Kg"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="precio">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="670Euros"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="puertos">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="8 puertos"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="ram">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="8 GB DDR4"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="sitemaoperativo">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Windows 10 home"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="teclado">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Esañol-Numerico"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="tecnologia">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="LED"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="tipo">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Ordendor portatil"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="tipodegrafica">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Dedicada"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="usb-C">
+		<xs:simpleType>
+			<xs:restriction base="xs:byte">
+				<xs:enumeration value="1"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="usb2.0">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="2 puertos"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="usb3.0">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="2 puerto"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="vga">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="1puerto"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="vram">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="2GB GDDR5"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>

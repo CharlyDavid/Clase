@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ordenador SYSTEM "C:\Users\AlumnoCIP\Desktop\Programas\UF1841\E2\DocumentoDTD\ordenador.dtd">
+<ordenador>
+	<marca>acer</marca>
+	<modelo>aspire E 17 E5-774G-53LR</modelo>
+	<tipo>Ordendor portatil</tipo>
+	<color>negro</color>
+	<pantalla>17.3 pulgadas</pantalla>
+	<Resolucio>1600x900 HD+</Resolucio>
+	<tecnologia>LED</tecnologia>
+	<peso>3.3Kg</peso>
+	<ram>8 GB DDR4</ram>
+	<grafica>Nvidia Geforce 940MX</grafica>
+	<vram>2GB GDDR5</vram>
+	<tipodegrafica>Dedicada</tipodegrafica>
+	<Procesador>intelcore i5-7200</Procesador>
+	<nucleos>2</nucleos>
+	<puertos>8 puertos</puertos>
+	<usb2.0>2 puertos</usb2.0>
+	<usb3.0>2 puerto</usb3.0>
+	<usb-C>1</usb-C>
+	<Ethernet>Gigabit Ethernet</Ethernet>
+	<hdmi>1puerto</hdmi>
+	<vga>1puerto</vga>
+	<teclado>Esañol-Numerico</teclado>
+	<almacnamiento>1000 GB HDD</almacnamiento>
+	<sitemaoperativo>Windows 10 home</sitemaoperativo>
+	<arquitectura>64-bit</arquitectura>
+	<bateria>Batería 6 celdas Ion de litio</bateria>
+	<otras>
+  Better       Reversible  Ultrsfast  Acer      Acer         Certified for
+  graphics     Type-C      wireless   ExaColor  TrueHarmony  Skype for
+  performance  Conector                                      Business
+ </otras>
+	<precio>670euros</precio>
+</ordenador>
