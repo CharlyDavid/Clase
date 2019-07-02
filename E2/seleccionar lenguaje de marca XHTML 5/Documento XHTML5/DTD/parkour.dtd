@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- DTD generado con XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) -->
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT años (#PCDATA)>
+<!ELEMENT lugar (#PCDATA)>
+<!ELEMENT Factor (#PCDATA)>
+<!ELEMENT apkadd (entidad, deporte, localidad, municipio, actitudes, juntadirectiva, miembros, eventos, entrenamientos, lugares, parkour, modalidad, Factor, historia, años, precursorbase, segundoprecursor, inplementadores, lugar, Indumentaria, calzado, pantalon, camiseta, saltos, recepciones, movimientos, movimietosavanzado, Practicantes, edad, practica, filosofia, valores, actualidad)>
+<!ELEMENT saltos EMPTY>
+<!ELEMENT calzado (#PCDATA)>
+<!ELEMENT deporte (#PCDATA)>
+<!ELEMENT entidad (#PCDATA)>
+<!ELEMENT eventos EMPTY>
+<!ELEMENT lugares EMPTY>
+<!ELEMENT parkour EMPTY>
+<!ELEMENT valores (#PCDATA)>
+<!ELEMENT camiseta (#PCDATA)>
+<!ELEMENT historia (#PCDATA)>
+<!ELEMENT miembros EMPTY>
+<!ELEMENT pantalon (#PCDATA)>
+<!ELEMENT practica (#PCDATA)>
+<!ELEMENT actitudes (#PCDATA)>
+<!ELEMENT filosofia EMPTY>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT modalidad (#PCDATA)>
+<!ELEMENT municipio EMPTY>
+<!ELEMENT actualidad (#PCDATA)>
+<!ELEMENT movimientos EMPTY>
+<!ELEMENT recepciones EMPTY>
+<!ELEMENT Indumentaria (#PCDATA)>
+<!ELEMENT Practicantes (#PCDATA)>
+<!ELEMENT precursorbase (#PCDATA)>
+<!ELEMENT entrenamientos EMPTY>
+<!ELEMENT juntadirectiva EMPTY>
+<!ELEMENT inplementadores (#PCDATA)>
+<!ELEMENT segundoprecursor (#PCDATA)>
+<!ELEMENT movimietosavanzado EMPTY>

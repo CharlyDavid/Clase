@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE apkadd SYSTEM "C:\Users\USER\Documents\Deivid\Curso desarollo de app web - copia\clase\UF1841\E2\Pagina web asociacion\Examen\Documento XHTML5\DTD\parkour.dtd">
+<apkadd>
+	<entidad>Asociacion deportive</entidad>
+	<deporte>Parkour arte del desplazamiento</deporte>
+	<localidad> Tenerife </localidad>
+	<municipio/>
+	<actitudes>practica y difusion del parkour</actitudes>
+	<juntadirectiva/>
+	<miembros/>
+	<eventos/>
+	<entrenamientos/>
+	<lugares/>
+	<parkour/>
+	<modalidad>Deporte</modalidad>
+	<Factor>Deporte con factor de riesgo</Factor>
+	<historia>Desarrollo de la historia</historia>
+	<años>1900/2005</años>
+	<precursorbase>Georges Hebert</precursorbase>
+	<segundoprecursor>Raymon belle</segundoprecursor>
+	<inplementadores> David belle y Yamakazy</inplementadores>
+	<lugar>Nacido en Francia</lugar>
+	<Indumentaria>Ropa</Indumentaria>
+	<calzado>Tenis deportivos</calzado>
+	<pantalon>largo o corto</pantalon>
+	<camiseta>larga o corta</camiseta>
+	<saltos/>
+	<recepciones/>
+	<movimientos/>
+	<movimietosavanzado/>
+	<Practicantes>hombre y mujer</Practicantes>
+	<edad>recomendada 6 o 7 años en adelante</edad>
+	<practica>lugar de practica</practica>
+	<filosofia/>
+	<valores>enseñanza a nivel personal</valores>
+	<actualidad>panorama actual del deporte</actualidad>
+</apkadd>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- W3C Schema generado con XMLSpy v2019 rel. 3 sp1 (http://www.altova.com) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="Factor">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Deporte con factor de riesgo"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Indumentaria">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Ropa"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="Practicantes">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="hombre y mujer"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="actitudes">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="practica y difusion del parkour"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="actualidad">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="panorama actual del deporte"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="apkadd">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="entidad"/>
+				<xs:element ref="deporte"/>
+				<xs:element ref="localidad"/>
+				<xs:element ref="municipio"/>
+				<xs:element ref="actitudes"/>
+				<xs:element ref="juntadirectiva"/>
+				<xs:element ref="miembros"/>
+				<xs:element ref="eventos"/>
+				<xs:element ref="entrenamientos"/>
+				<xs:element ref="lugares"/>
+				<xs:element ref="parkour"/>
+				<xs:element ref="modalidad"/>
+				<xs:element ref="Factor"/>
+				<xs:element ref="historia"/>
+				<xs:element ref="años"/>
+				<xs:element ref="precursorbase"/>
+				<xs:element ref="segundoprecursor"/>
+				<xs:element ref="inplementadores"/>
+				<xs:element ref="lugar"/>
+				<xs:element ref="Indumentaria"/>
+				<xs:element ref="calzado"/>
+				<xs:element ref="pantalon"/>
+				<xs:element ref="camiseta"/>
+				<xs:element ref="saltos"/>
+				<xs:element ref="recepciones"/>
+				<xs:element ref="movimientos"/>
+				<xs:element ref="movimietosavanzado"/>
+				<xs:element ref="Practicantes"/>
+				<xs:element ref="edad"/>
+				<xs:element ref="practica"/>
+				<xs:element ref="filosofia"/>
+				<xs:element ref="valores"/>
+				<xs:element ref="actualidad"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="años">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="1900/2005"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="calzado">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Tenis deportivos"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="camiseta">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="larga o corta"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="deporte">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Parkour arte del desplazamiento"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="edad">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="recomendada 6 o 7 años en adelante"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="entidad">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Asociacion deportive"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="entrenamientos">
+		<xs:complexType>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="eventos">
+		<xs:complexType>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="filosofia">
+		<xs:complexType>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="historia">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Desarrollo de la historia"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="inplementadores">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value=" David belle y Yamakazy"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="juntadirectiva">
+		<xs:complexType>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="localidad">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value=" Tenerife "/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="lugar">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Nacido en Francia"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="lugares">
+		<xs:complexType>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="miembros">
+		<xs:complexType>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="modalidad">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Deporte"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="movimientos">
+		<xs:complexType>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="movimietosavanzado">
+		<xs:complexType>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="municipio">
+		<xs:complexType>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="pantalon">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="largo o corto"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="parkour">
+		<xs:complexType>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="practica">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="lugar de practica"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="precursorbase">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Georges Hebert"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="recepciones">
+		<xs:complexType>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="saltos">
+		<xs:complexType>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="segundoprecursor">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="Raymon belle"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	<xs:element name="valores">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+				<xs:enumeration value="enseñanza a nivel personal"/>
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+</xs:schema>

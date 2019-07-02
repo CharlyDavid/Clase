@@ -1,0 +1,63 @@
+/*Ejemplo de estilo CSS Externo*/
+
+/*selector universal*/
+*{margin:0%; 
+padding:0%;}
+/*selector  tipo elemento*/
+/*body{background-image: url(../IMG/wall5.jpg);}*/
+h1 {color:#e7e7e7; background-color:black; font-family:Algerian;font-size:300%;font-weight:50;outline-color:}
+p{color:black;margin-left:11%;margin-right:8%;vertical-align:left;font-family:Georgia, serif}
+i{color:gray;margin-left:11%; margin-right:9%;}
+h2{color:black;margin-left:11%;margin-right:11%;font-family:Lucida Calligraphy;font-size:2em}
+h6{color:black;margin-left:11%;margin-right:11%;font-family:Lucida Calligraphy;font-size:0.55em; }
+h3{color:#e7e7e7;}
+em{border-image-source:url(../IMG/wallpk14.jpg);}
+table{color:black;margin-left:11%;}
+
+
+/*selector descendente*/
+nav a{hover}
+div p{margin-right:5%;}
+h1 em {color:#e7e7e7;font-family:Palace Script MT;font-size:105%; text-decoration: underline}
+
+
+/*selector Clase*/
+.titulo{margin-left:30%;}
+.link {border:double;}
+.primerparrafo {border:inset ;color: red;border-width: thin; border-radius:15%;}
+.foto1{height:5% ; width: 5%; margin-left:o.5% }
+.foto2{height:5%; width: 5%; margin-left:36.4%;}
+.foto3{height:15% ; width: 15%; margin-left:85%;margin-bottom:-1%;margin-top:-11%}
+.foto4{height:25% ; width: 25%; margin-left:28%}
+.texto{float:left;margin-right:;margin-left:}
+.foto7{height:50% ; width: 65%; margin-left:20%}
+
+/*selector ID*/
+#contenido{margin-left: 50%;}
+#celda{background-color:black;letter-spacing:2px}
+#cabeza{border-bottom-style: dotted;border-bottom-width:1px;border-bottom-color:gray;
+margin-left:11%;margin-right:14%;letter-spacing:1px;padding-bottom:3%}
+#parrafo1{font-size:1.2em;}
+
+
+/*selector Hijo*/
+p>input{color:green;}
+/*selector Hermano adyacente*/
+a+img{border-image-source: url(índice.png)}
+b+p+p{background-color:black;}
+/*selector Hermano general*/
+p~STRONG{background-color:gray}
+
+/*selector de atributo*/
+
+[relm]{background-color: gray; display:block; margin-right:50%; margin-left:25%}
+
+
+/*selector de pseudoclase*/
+
+a:link {color: orange;text-decoration:none}
+a:visited {color:#e7e7e7}
+a:hover {background-color:}
+th:focus{background-color:#000000;}
+
+img:hover{}

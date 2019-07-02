@@ -1,0 +1,57 @@
+/*Ejemplo de estilo CSS Externo*/
+h2{color:#a9feff;}
+p {color:#eefd00;}
+a{color:orange;}
+html{background-color:royal gray;}
+em{border-image-source: url(../IMA/índice.png);}
+
+/*selector universal*/
+*{margin:0%; 
+padding:0%;}
+/*selector  tipo elemento*/
+body{background-image: url(../IMA/wal1.jpg);}
+h1{background-image: url(../IMA/wal3.jpg);}
+nav{margin-left:38%;}
+/*selector descendente*/
+strong font {border-style:dashed
+;border-color:green;border-radius:15%;}
+h1 font {color:#a9feff;font-size:150%;font-family:Lucida Calligraphy;}
+em h1{color:#97fbbf;font-size:300%; font-family:Lucida Calligraphy;
+}
+div p{color:#a9feff;}
+/*selector Clase*/
+.titulo{margin-right: 20%;margin-left:10%; padding:0%;text-decoration:underline;}
+.link {border:double;}
+.primerparrafo {border:inset ;color: red;border-width: thin; border-radius:15%;}
+.3{ padding: 10px; margin: 10px; border: 2px solid black; float: left; width: 250px;}
+.1{ padding: 10px; margin: 10px; border: 2px solid black; float: left; width: 250px;}
+.foto1 { padding: 10px; margin: 10px; border: 2px solid black; float: left; width: 250px; }
+.foto2 { padding: 10px; margin: 10px; border: 2px solid black; float: left; width: 250px; }
+
+/*selector ID*/
+#contenido{margin-left: 50%;}
+
+/*selector Hijo*/
+p>input{color:green;}
+/*selector Hermano adyacente*/
+
+a+img{border-image-source: url(../IMA/índice.png)}
+b+p+p{background-color:black;}
+/*selector Hermano general*/
+p~STRONG{background-color:gray}
+
+/*selector de atributo*/
+
+[relm]{background-color: gray; display:block; margin-right:50%; margin-left:25%}
+
+
+/*selector de pseudoclase*/
+
+a:link {color: orange}
+a:visited {color:red}
+a:active {color:pink}
+a:hover {background-color:yellow}
+a:hover,ul:hover {transform:scale(1.5);}
+input:focus{background:black}
+
+img:hover{transform:rotate(-180deg);}
